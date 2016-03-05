@@ -393,8 +393,8 @@ clitest  --prefix 4 --prompt '[john@localhost ~]$ ' README.md
 
 * Both STDIN and STDOUT are catch, you can also test error messages.
 
-* To test STDOUT and the exit code at the same time, add a `;echo $?`
-  after the command.
+* To test STDOUT/STDERR and the exit code at the same time, add a
+  `;echo $?` after the command.
 
 * Use an empty `$` prompt to close the last command output.
 
